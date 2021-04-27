@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="question5.css">
+</head>
+<body>
+    <!-- Question 5
+Support you have a html tag like this 
+<div>Javascript Developer</div>
+Write a small html code to add a class on this div. Add a rounded border box on this div and also there should be a gap of 5px between the text and the rounded box and the text.  -->
+
+
+<div class="main-div">Javascript Developer</div>
+
+
+<!-- Question 6
+Write css to center a box on the page. Let’s see we have a blank empty page and we want to create a box of size 100px x 100px and it should be the center of the page always. How will you do it? -->
+
+
+<div class="parent-div">
+    <div class="center-div">Center Box</div>
+</div>
+
+<!-- Question 7
+Let’s see we an api url www.example.com/api/get/1 
+Write a sample code to call this url via ajax and print its response. -->
+
+<button onclick="fetch();">Fetch Data</button>
+    <br>
+    <ul class="messages">
+
+    </ul>
+
+    <script>
+        function fetch()
+        {
+            $.ajax({
+                url: "https://www.mysirg.com/",
+                type: "GET",
+                data:"messages=",
+                success:function(data){
+                    $('.messages').append
+                },
+                error: function(data){
+                    alert("Error Hai.")
+                }
+            })
+        }
+    </script>
+
+</body>
+</html>
