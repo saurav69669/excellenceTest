@@ -1,0 +1,36 @@
+.main-div
+{
+    border: 1px solid black;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.center-div
+{
+    border: 1px solid black;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+
+.parent-div
+{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; */
+}
